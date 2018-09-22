@@ -1,10 +1,57 @@
-﻿body
-{
-    background-color:aqua;
+﻿.Base {
+    background-color: lightcoral;
+    float: left;
+    width:25%;
+    display:flex;
+    flex-direction:column;
+    height:100vh;
 }
-.header2{
+Tab {
+    background-color: white;
+}
+.CurrentTab{
     background-color:white;
 }
-#header3{
-    background-color:black;
+.ProfilePic {
+    text-align: center;
+    display:block;
+    padding:10px;
+    height:50%;
 }
+
+.ProfilePic img{
+    padding:5px;
+    border-radius:50%;
+    border:solid;
+    border-color:white;
+    width:75%;
+}
+
+.ProfilePic h2 {
+    color: white;
+    font-family: Calibri;
+}
+
+.Links {
+    display: flex;
+    flex-direction:column;
+    height:50%;
+}
+
+.Links a {
+    border-top: solid;
+    border-color: gray;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Bookman Old Style';
+    font-size: 20px;
+    height:25%;
+    padding-top:9%;
+}
+
+a:active, a:hover{
+    background-color:gray;
+    color:white;
+}
+
