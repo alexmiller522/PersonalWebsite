@@ -10,6 +10,10 @@ Tab {
     background-color: white;
     font-family: 'Arial Black';
 }
+.Tab h1{
+    font-family: 'Arial Black';
+}
+
 .CurrentTab{
     background-color:white;
 }
@@ -79,7 +83,4 @@ a:link {
 a:hover {
     color: Green;
     background: transparent;
-}
-.h1{
-font-family: 'Arial Black';
 }
