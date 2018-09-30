@@ -8,12 +8,14 @@
 }
 Tab {
     background-color: white;
-    font-family: 'Arial Black';
+    font-family: 'Bookman Old Style';
 }
 .Tab h1{
-    font-family: 'Arial Black';
+    font-family: 'Calibri';
 }
-
+.Tab a{
+font-family:'Bookman Old Style';
+}
 .CurrentTab{
     background-color:white;
 }
@@ -77,10 +79,14 @@ div.project{
     font-size: 20px;
     font-family: 'Arial Black';
 }
-a:link {
-    color: Purple;
-}
-a:hover {
-    color: Green;
-    background: transparent;
+.Links a {
+    border-top: solid;
+    border-color: purple;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Bookman Old Style';
+    font-size: 20px;
+    height:25%;
+    padding-top:9%;
 }
