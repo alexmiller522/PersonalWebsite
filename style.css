@@ -57,9 +57,9 @@ font-family:'Bookman Old Style';
     padding-top:9%;
 }
 
-a:active, a:hover{
-    background-color:dark pink;
-    color:white;
+a:hover{
+    background-color:white;
+
 }
 div.about {
     position: relative;
